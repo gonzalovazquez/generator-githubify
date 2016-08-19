@@ -1,0 +1,21 @@
+{
+  "name": "<%= app_name %>",
+  "version": "0.0.1",
+  "author": "Gonzalo Vazquez",
+  "description": "<%= description %>",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Gonzalo Vazquez",
+      "email": "gonzalo.segura1@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    <% if (action !== 'Starting a new project') { %>
+    "url": "<%= git_repo %>"
+    <% } %>
+  },
+  "devDependencies": {
+  }
+}

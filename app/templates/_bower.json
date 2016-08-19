@@ -1,0 +1,11 @@
+{
+  "name": "<%= app_name %>",
+  "version": "0.0.1",
+  "dependencies": { 
+    <% if (app_type === 'AngularJS') { %>
+      "angular": "~1.4.2"
+    <% } if(app_type === 'ReactJS') { %>
+      "react": "~0.13.3"
+    <% } %>
+  }
+}

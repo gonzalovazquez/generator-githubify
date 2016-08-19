@@ -1,0 +1,14 @@
+Description:
+    Create an Angular or React barebones web application
+
+Example:
+    yo rna
+
+    This will generate:
+        .gitignore
+        package.json
+        bower.json
+        src/: Your application files
+        src/js/app.js
+        styles/: Your application style
+        styles/main.css
